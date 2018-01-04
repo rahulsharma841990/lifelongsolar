@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page-top {
+	width:100%;
+	background:#cccccc url(../img/page_title_bg.png) no-repeat;
+	background-position: center center;
+	height:90px;
+	margin-bottom:20px;
+	padding:15px 0;
+}
+.page-top h1 {
+	font-family:'open_sansbold', Arial, Helvetica, sans-serif;
+	font-size:20px !important;
+	color:#666;
+	font-weight:bold;
+}
+.page-top-wrapper {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 10px;
+	width: 100%;
+}
+.breadcrumb {
+	padding:0;
+	margin-bottom:0px;
+	margin-top:15px !important;
+	list-style:none;
+	background-color:none;
+	border-radius:0;
+	text-align:right;
+	background:none !important;
+}
+.breadcrumb li a {
+	display:inline-block;
+	color:#cc3333 !important;
+}
+.breadcrumb>li {
+	display:inline-block;
+	color:#F00;
+}
+.breadcrumb>li+li:before {
+	padding:0 5px;
+	color:#ccc;
+	content:"/\00a0"
+}
+.breadcrumb>.active {
+	color:#777
+}
+.imgBorder { border: 6px solid #555555; }
+.spaceTop { padding:30px 0; }
+.spacebottom { padding-bottom:30px; }
+.spaceTop h2 { padding:0; margin:0; }
+.spaceTop p { line-height:28px; text-align:justify; margin-top:20px; }
+.spaceTop ul { margin:0; padding:0; list-style-type:none; margin-top:35px; }
+.spaceTop li { display:block; float:left; margin-left:2px; }
+.spaceTop li a { color:#666; font-size:14px; background:#cccccc; padding:12px;}
+.spaceTop li a:hover { color:#e1e1e1; font-size:14px; background:#cc3333; text-decoration:none; }
+.feature li::before {
+ background-color: #ff9933;
+ background-repeat: no-repeat;
+ border-radius: 75px;
+ content: " ";
+ display: inline-block;
+ float: left;
+ height: 10px;
+ margin-left: -40px;
+ margin-top: 10px;
+ width: 10px;
+}
+.feature li { display:block; float:none !important; margin-left:2px; color:#666; font-size:14px; line-height:28px; list-style:circle; }
+#contactForm { padding:20px 0; }
+.contact { padding:0 0; }
+.contact h3 { padding:0; margin-top:0; }
+.contact p { line-height:30px; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table th {
+    background: #ff9933 none repeat scroll 0 0;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    text-align: left;
+}
+table tr:nth-child(2n) {
+    background: #f6f6f6 none repeat scroll 0 0;
+}
+table tr td {
+    border: 1px solid #dcdcdc;
+    padding: 10px 20px;
+}
+table thead {
+    border: 1px solid #d3d3d3;
+    text-align: left;
+}
+table th {
+    color: #fff;
+    padding: 20px;
+}
+table tr td {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px 20px;
+}
+table td { background-color: #f6f6f6 !important; }
