@@ -1,0 +1,15 @@
+{
+    "name": "lifelongsolar/lifelongsolar",
+    "description": "Life Long Solar",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul",
+            "email": "rahulsharma841990@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
